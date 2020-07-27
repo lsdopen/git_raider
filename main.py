@@ -3,7 +3,7 @@ import subprocess
 from rich.console import Console
 from rich.table import Column, Table
 
-config = yaml.safe_load(open('digger.yaml'))
+config = yaml.safe_load(open('raider.yaml'))
 
 seen = json.load(open('seen.json'))
 current = []
